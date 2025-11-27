@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "Fullstack Assignment (Kotlin)"
+  datasource:
+    url: jdbc:mariadb://localhost:53306/assignment
+    username: root
+    password:

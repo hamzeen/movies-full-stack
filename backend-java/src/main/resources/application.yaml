@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "Fullstack Assignment (Java)"
+  datasource:
+    url: jdbc:mariadb://localhost:53306/assignment
+    username: root
+    password:
