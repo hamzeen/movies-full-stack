@@ -2,13 +2,13 @@
 
 Welcome to the Beatgrid fullstack assignment.
 
+## CHANGELOG
+
+> A consolidated list of all changes and improvements made by **Hamzeen** can be found in the [CHANGELOG](CHANGELOG.md).
+
 ## 🎯 Objective
 
 You are building a Google for movies. Your app allows users to search through a movies dataset using an autocomplete search input.
-
-## CHANGELOG
-
-> A consolidated list of all changes and improvements made by **Hamzeen** can be found in the [CHANGELOG](docs/CHANGELOG.md).
 
 ### ✅ Requirements
 
