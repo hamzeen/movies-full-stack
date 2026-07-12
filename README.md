@@ -6,6 +6,10 @@ Welcome to the Beatgrid fullstack assignment.
 
 You are building a Google for movies. Your app allows users to search through a movies dataset using an autocomplete search input.
 
+## CHANGELOG
+
+> A consolidated list of all changes and improvements made by **Hamzeen** can be found in the [CHANGELOG](docs/CHANGELOG.md).
+
 ### ✅ Requirements
 
 - As the user types in the search input, display a dropdown with autocomplete suggestions.
@@ -63,6 +67,7 @@ To run the app, run `npm install` and then `npm run dev`. The app will be availa
 ## 📦 What to Submit
 
 Please provide:
+
 - The GitHub repository link
 
 ## 🙌 Good luck!

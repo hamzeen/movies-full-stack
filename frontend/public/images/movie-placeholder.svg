@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 400 600"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Movie poster placeholder</title>
+  <desc id="desc">A neutral placeholder showing a film clapperboard icon.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="600" rx="28" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="190" width="180" height="150" rx="18" fill="#ffffff"/>
+    <rect x="110" y="190" width="180" height="42" rx="18" fill="#ff385c"/>
+    <rect x="110" y="214" width="180" height="18" fill="#ff385c"/>
+
+    <path d="M128 190l24 42M174 190l24 42M220 190l24 42M266 190l24 42"
+          stroke="#ffffff"
+          stroke-width="14"
+          stroke-linecap="round"/>
+
+    <rect x="134" y="256" width="132" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="134" y="282" width="96" height="12" rx="6" fill="#cbd5e1"/>
+    <circle cx="246" cy="292" r="18" fill="#f1f5f9"/>
+    <path d="M240 283l14 9-14 9z" fill="#64748b"/>
+  </g>
+
+  <text x="200" y="390"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="28"
+        font-weight="700"
+        fill="#0f172a">
+    No poster available
+  </text>
+
+  <text x="200" y="426"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        fill="#64748b">
+    Movie Explorer
+  </text>
+</svg>

@@ -23,6 +23,8 @@ CREATE TABLE MOVIE
     CONSTRAINT MOVIE_pk PRIMARY KEY (id)
 );
 
+CREATE INDEX idx_movie_name ON MOVIE (name);
+
 # ========================
 # Data
 

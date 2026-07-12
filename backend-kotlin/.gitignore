@@ -37,3 +37,10 @@ out/
 
 ### Kotlin ###
 .kotlin
+
+### Local secrets / OS files ###
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
