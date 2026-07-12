@@ -68,4 +68,6 @@ Local Swagger UI: [localhost:8080/swagger-ui/index.html](http://localhost:8080/s
 
 - Set up automated vulnerability scanning for third-party dependencies - helps fight XSS attacks and so on. `npm audit` & `npm audit fix` can be used in the front-end project in the interim. Can be achieved by combiing these 2 tools: Consider [Dependency Check](https://owasp.org/www-project-dependency-check/), [Dependency Track](https://dependencytrack.org/).
 
+- Introduce API key authentication to provide controlled access for third-party applications using the Movie Finder API. API keys should support secure generation, revocation, rotation, usage tracking, and per-client rate limiting.
+
 - Load and stress testing with a tool such as [AutoCannon](https://github.com/mcollina/autocannon) would be a valuable next step to validate the API’s performance, and stability under heavy traffic, particularly if it is exposed as a public API.
