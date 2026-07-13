@@ -112,7 +112,7 @@ export function SearchPanel({
             <div className="flex flex-col gap-6">
                 <div className="w-full space-y-4">
                     <div className="flex flex-wrap items-center gap-3">
-                        <h2 className="rounded-full bg-fuchsia-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-fuchsia-600">
+                        <h2 className="rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-rose-700 bg-gray-100">
                             Movie search
                         </h2>
                     </div>
