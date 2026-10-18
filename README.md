@@ -57,19 +57,3 @@ You now have access on `localhost:8080`.
 The frontend is bootstrapped with [Vite](https://vitejs.dev/) (using the React + Typescript variant) for your convenience.
 
 To run the app, run `npm install` and then `npm run dev`. The app will be available at `http://localhost:5173/`
-
-## 🧪 Notes
-
-- You can use any libraries you want.
-- The design is up to you.
-- Feel free to reach out if you have any questions.
-
-## 📦 What to Submit
-
-Please provide:
-
-- The GitHub repository link
-
-## 🙌 Good luck!
-
-We’re looking forward to reviewing your solution.
