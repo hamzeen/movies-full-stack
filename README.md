@@ -1,10 +1,37 @@
-# The movie database search
+# The Movie Database Search
 
-Welcome to the Beatgrid fullstack assignment.
+A full-stack movie finder app that lets you search and browse a database of films.
 
-## CHANGELOG
+tech stack:
 
-> A consolidated list of all changes and improvements made by **Hamzeen** can be found in the [CHANGELOG](CHANGELOG.md).
+- **Backend:** Kotlin
+- **Frontend:** React
+- **Database:** MariaDB
+
+## Quick Run
+
+**1. Database** (port `53306`)
+
+```bash
+cd database
+docker compose up -d
+cat init.sql | mysql -h localhost -u root --port 53306 --protocol TCP
+```
+
+**2. Backend** (choose Java or Kotlin, runs on `localhost:8080`)
+
+```bash
+cd backend-kotlin
+./gradlew bootRun
+```
+
+**3. Frontend** (runs on `http://localhost:5173/`)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ## 🎯 Objective
 
